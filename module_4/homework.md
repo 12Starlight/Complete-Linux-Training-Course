@@ -71,6 +71,9 @@
   * <kbd>:wq!</kbd> **:** Writes to file, quits VIM, saves file
 
 ### **18.)** Become root user again
+  * <kbd>su -</kbd>
+  * Enter password for root user
+
 ### **19.)** Do cat/var/log/messages and output to a file called mesg-new in your home directory
 ### **20.)** Read the mesg-new file with cat, more, less commands and practice
 ### **21.)** View the first 10 lines of mesg-new file and output to a file name mesg-h10
