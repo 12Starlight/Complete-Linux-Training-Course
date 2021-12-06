@@ -28,6 +28,10 @@
   * <kbd>touch eliane newman</kbd>
 
 ### **8.)** Change file permission of newman to add write permissions to only group
+  * <kbd>chmod 764 newman</kbd> **:** Assigns rwx to user, rw to group, r to other
+  * <kbd>chmod a-w newman</kbd> **:** Removes w for all users
+  * <kbd>chmod g+w</kbd> **:** Adds w to group
+
 ### **9.)** Become root and cd into your home directory. Then create 2 new files superman and zad in superman directory
 ### **10.)** Change ownership of zad file from root to your username
 ### **11.)** Change group ownership of zad from root to your username
