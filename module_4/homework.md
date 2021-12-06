@@ -90,7 +90,12 @@
   * <kbd>tail -n20 mesg-new > mesg-t20</kbd>
 
 ### **23.)** Exit out of root user
+  * <kbd>exit</kbd>
+
 ### **24.)** Go to seinfeld directory in your home directory and create a new file "seinfeld-characters"
+  * <kbd>cd seinfeld</kbd>
+  * <kbd>touch seinfeld-characters</kbd>
+
 ### **25.)** Add text to seinfeld-character file using echo command. Each character should be in one line, "Jerry Seinfeld, Cosmo Kramer, Eliane Benes, George Costanza, Newman Mailman, Frank Costanza, Estelle Costanza, Morty Seinfeld, Helen Seinfeld, Babes Kramer, Alton Benes, J Peterman, George Steinbrenner, Uncle Leo, David Puddy, Justin Pit, and Kenny Bania"
 ### **26.)** Use cut command to cut the first 4 letters of each line from seinfeld-characters file and output to a different file name (name=filters-files)
 ### **27.)** Use awk command to get only the 2nd column of seinfeld-characters and output to the filters-files without removing any other text from it
