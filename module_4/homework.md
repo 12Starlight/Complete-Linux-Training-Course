@@ -53,6 +53,7 @@
   * <kbd>rm superman</kbd>
 
 ### **14.)** Exit out of root account
+  * <kbd>exit</kbd>
   
 ### **15.)** Go back to superman directory in your home directory and add this linke to zad file "zad is a bad character in superman movie"
 ### **16.)** Go to seinfeld directory and create a new file seinfeld
