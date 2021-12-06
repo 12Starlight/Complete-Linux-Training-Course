@@ -21,16 +21,13 @@
     * <kbd>passwd <user_name></kbd> **:** &nbsp; Changes User password
     * <kbd>Exit</kbd> **:** &nbsp; Switches back to `User`
 
-  &nbsp;
   * Create Files: jerry, kramer, george, lex, clark, lois, homer, bart, lisa,
     marge
     * <kbd>touch <file_name> ... <infinity_names></kbd> **:** &nbsp; Creates files 
 
-  &nbsp;
   * Create 3 Directories seinfeld, superman, simpsons
     * <kbd>mkdir <dir_name> ... <infinity_names></kbd> **:** &nbsp; Creates dir's
 
-  &nbsp;
   * Create file jupiter and write to it "Jupiter is a planet". Then create a soft
     link in /temp directory
     * <kbd>echo "Jupiter is a planet" > jupiter</kbd>
@@ -40,7 +37,6 @@
       * Check: <kbd>cat jupiter</kbd> **:** Reads file in command line
       * Note: link is broken when sourcefile is removed    
 
-  &nbsp;
   * Create hard link
     * <kbd>echo "Jupiter is a planet" > jupiter</kbd>
     * <kbd>cd /tmp</kbd>
