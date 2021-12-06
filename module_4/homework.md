@@ -60,6 +60,9 @@
   * <kbd>echo "zad is a bad character in superman movie" > zad</kbd>
 
 ### **16.)** Go to seinfeld directory and create a new file seinfeld
+  * <kbd>cd ../seinfeld</kbd>
+  * <kbd>touch seinfeld</kbd>
+
 ### **17.)** Add 5 seinfeld characters names in seinfeld file: Jerry Seinfeld, George Costanza, Eliane Benis, Cosmo Kramer, and David Puddy
 ### **18.)** Become root user again
 ### **19.)** Do cat/var/log/messages and output to a file called mesg-new in your home directory
