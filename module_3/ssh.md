@@ -9,3 +9,9 @@
       * Run &nbsp; <kbd>whoami</kbd> to check new username
       * Run &nbsp; <kbd>hostname</kbd> to check new hostname
 
+### **Locate**
+  * As the root user run &nbsp; <kbd>updatedb</kbd>
+  * Make sure mlocate package is installed
+    * As the root user run &nbsp; <kbd>um install mlocate</kbd>
+
+
