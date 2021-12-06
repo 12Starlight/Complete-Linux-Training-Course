@@ -87,6 +87,8 @@
   * <kbd>head mesg-new > mesg-h10</kbd>
 
 ### **22.)** View the last 20 lines of mesg-new file and output to a file name mesg-t20
+  * <kbd>tail -n20 mesg-new > mesg-t20</kbd>
+
 ### **23.)** Exit out of root user
 ### **24.)** Go to seinfeld directory in your home directory and create a new file "seinfeld-characters"
 ### **25.)** Add text to seinfeld-character file using echo command. Each character should be in one line, "Jerry Seinfeld, Cosmo Kramer, Eliane Benes, George Costanza, Newman Mailman, Frank Costanza, Estelle Costanza, Morty Seinfeld, Helen Seinfeld, Babes Kramer, Alton Benes, J Peterman, George Steinbrenner, Uncle Leo, David Puddy, Justin Pit, and Kenny Bania"
