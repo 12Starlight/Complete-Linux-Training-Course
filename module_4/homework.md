@@ -33,6 +33,11 @@
   * <kbd>chmod g+w</kbd> **:** Adds w to group
 
 ### **9.)** Become root and cd into your home directory. Then create 2 new files superman and zad in superman directory
+  * <kbd>su -</kbd>
+  * Enter password for root user
+  * <kbd>cd /home/user_name/superman</kbd>
+  * <kbd>touch superman zad</kbd>
+
 ### **10.)** Change ownership of zad file from root to your username
 ### **11.)** Change group ownership of zad from root to your username
 ### **12.)** Move superman file to /temp directory
