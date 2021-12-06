@@ -5,11 +5,12 @@
   * <kbd>hostname</kbd> **:** Gets hostname
   * <kbd>pwd</kbd> **:** Prints working directory
   * <kbd>clear</kbd> **:** Clears screan
-  * <kbd>ls -ltr</kbd> **:** List Line, Ordered by time, In Reverse (newest first)
+  * <kbd>ls -ltr</kbd> **:** List Line, Ordered by time, In reverse (newest first)
   * <kbd>cat seinfeld-characters</kbd> **:** Reads file
     * <kbd>grep -in cos seinfeld-characters</kbd> **:** Selects charaters in file, ignores case, Lists line number selections are found
 
 ### **2.)** List files in your home directory by the last time they were modified
+  * <kbd>ls -ltr</kbd> **:** Lists by line, Last modified time, In reverse (newest first)
 
 ### **3.)** Move jerry, george, kramer, and puddy files into seinfeld directory
 ### **5.)** Move homer, bart, marge, lisa files in simpsons directory
