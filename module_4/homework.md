@@ -45,6 +45,8 @@
   * <kbd>chgrp user_name zad</kbd>
 
 ### **12.)** Move superman file to /temp directory
+  * <kbd>mv superman /tmp</kbd>
+
 ### **13.)** Remove superman file to /temp directory
 ### **14.)** Exit out of root account
 ### **15.)** Go back to superman directory in your home directory and add this linke to zad file "zad is a bad character in superman movie"
