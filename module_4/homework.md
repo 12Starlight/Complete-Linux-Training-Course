@@ -42,6 +42,8 @@
   * <kbd>chown user_name zad</kbd>
 
 ### **11.)** Change group ownership of zad from root to your username
+  * <kbd>chgrp user_name zad</kbd>
+
 ### **12.)** Move superman file to /temp directory
 ### **13.)** Remove superman file to /temp directory
 ### **14.)** Exit out of root account
