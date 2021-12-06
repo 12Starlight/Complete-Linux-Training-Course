@@ -39,6 +39,8 @@
   * <kbd>touch superman zad</kbd>
 
 ### **10.)** Change ownership of zad file from root to your username
+  * <kbd>chown user_name zad</kbd>
+
 ### **11.)** Change group ownership of zad from root to your username
 ### **12.)** Move superman file to /temp directory
 ### **13.)** Remove superman file to /temp directory
