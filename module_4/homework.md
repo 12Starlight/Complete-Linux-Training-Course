@@ -13,6 +13,8 @@
   * <kbd>ls -ltr</kbd> **:** Lists by line, Last modified time, In reverse (newest first)
 
 ### **3.)** Move jerry, george, kramer, and puddy files into seinfeld directory
+  * <kbd>mv jerry george kramer puddy seinfeld</kbd>
+  
 ### **5.)** Move homer, bart, marge, lisa files in simpsons directory
 ### **6.)** Move clark, luther and lois files in superman directory
 ### **7.)** List the content of seinfeld directory by the last time they were modified
