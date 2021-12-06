@@ -55,7 +55,10 @@
 ### **14.)** Exit out of root account
   * <kbd>exit</kbd>
   
-### **15.)** Go back to superman directory in your home directory and add this linke to zad file "zad is a bad character in superman movie"
+### **15.)** Go back to superman directory in your home directory and add this line to zad file "zad is a bad character in superman movie"
+  * <kbd>cd superman</kbd>
+  * <kbd>echo "zad is a bad character in superman movie" > zad</kbd>
+
 ### **16.)** Go to seinfeld directory and create a new file seinfeld
 ### **17.)** Add 5 seinfeld characters names in seinfeld file: Jerry Seinfeld, George Costanza, Eliane Benis, Cosmo Kramer, and David Puddy
 ### **18.)** Become root user again
