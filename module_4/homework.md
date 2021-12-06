@@ -117,6 +117,8 @@
   * Note: this could also be accomplished by <kbd>echo -e "name\nname\n...etc" >> seinfeld-character</kbd>
 
 ### **26.)** Use cut command to cut the first 4 letters of each line from seinfeld-characters file and output to a different file name (name=filters-files)
+  * <kbd>cut -c1-4 seinfeld-characters > seinfeld-cut</kbd> **:** Cuts characters in a range of 1-4
+
 ### **27.)** Use awk command to get only the 2nd column of seinfeld-characters and output to the filters-files without removing any other text from it
 ### **28.)** Use grep command to only grep seinfeld and output to a new file called seinfeld-family
 ### **29.)** Use sort command, uniq and wc command to practice whichever way you like by creating new files or workign with existing files
