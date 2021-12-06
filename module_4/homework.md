@@ -75,6 +75,8 @@
   * Enter password for root user
 
 ### **19.)** Do cat/var/log/messages and output to a file called mesg-new in your home directory
+  * <kbd>cat /var/log/messages > /home/user_name/mesg-new</kbd>
+
 ### **20.)** Read the mesg-new file with cat, more, less commands and practice
 ### **21.)** View the first 10 lines of mesg-new file and output to a file name mesg-h10
 ### **22.)** View the last 20 lines of mesg-new file and output to a file name mesg-t20
