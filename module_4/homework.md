@@ -97,6 +97,25 @@
   * <kbd>touch seinfeld-characters</kbd>
 
 ### **25.)** Add text to seinfeld-character file using echo command. Each character should be in one line, "Jerry Seinfeld, Cosmo Kramer, Eliane Benes, George Costanza, Newman Mailman, Frank Costanza, Estelle Costanza, Morty Seinfeld, Helen Seinfeld, Babes Kramer, Alton Benes, J Peterman, George Steinbrenner, Uncle Leo, David Puddy, Justin Pit, and Kenny Bania"
+  * <kbd>echo "Jerry Seinfeld" > seinfeld-character</kbd>
+  * <kbd>echo "Cosmo Kramer" >> seinfeld-character</kbd>
+  * <kbd>echo "Eliane Benes" >> seinfeld-character</kbd>
+  * <kbd>echo "George Costanza" >> seinfeld-character</kbd>
+  * <kbd>echo "Newman Mailman" >> seinfeld-character</kbd>
+  * <kbd>echo "Frank Costanza" >> seinfeld-character</kbd>
+  * <kbd>echo "Estelle Costanza" >> seinfeld-character</kbd>
+  * <kbd>echo "Morty Seinfeld" >> seinfeld-character</kbd>
+  * <kbd>echo "Helen Seinfeld" >> seinfeld-character</kbd>
+  * <kbd>echo "Babes Kramer" >> seinfeld-character</kbd>
+  * <kbd>echo "Alton Benes" >> seinfeld-character</kbd>
+  * <kbd>echo "J Peterman" >> seinfeld-character</kbd>
+  * <kbd>echo "George Steinbrenner" >> seinfeld-character</kbd>
+  * <kbd>echo "Uncle Leo" >> seinfeld-character</kbd>
+  * <kbd>echo "David Puddy" >> seinfeld-character</kbd>
+  * <kbd>echo "Justin Pit" >> seinfeld-character</kbd>
+  * <kbd>echo "Kenny Bania" >> seinfeld-character</kbd>
+  * Note: this could also be accomplished by <kbd>echo -e "name\nname\n...etc" >> seinfeld-character</kbd>
+
 ### **26.)** Use cut command to cut the first 4 letters of each line from seinfeld-characters file and output to a different file name (name=filters-files)
 ### **27.)** Use awk command to get only the 2nd column of seinfeld-characters and output to the filters-files without removing any other text from it
 ### **28.)** Use grep command to only grep seinfeld and output to a new file called seinfeld-family
