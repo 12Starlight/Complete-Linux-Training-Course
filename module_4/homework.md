@@ -22,6 +22,8 @@
   * <kbd>mv clark lois luther superman</kbd>
 
 ### **6.)** List the content of seinfeld directory by the last time they were modified
+  * <kbd>ls -ltr seinfeld</kbd>
+
 ### **7.)** Create 2 new files in seinfeld directory, eliane and newman
 ### **8.)** Change file permission of newman to add write permissions to only group
 ### **9.)** Become root and cd into your home directory. Then create 2 new files superman and zad in superman directory
