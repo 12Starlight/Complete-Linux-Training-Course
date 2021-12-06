@@ -81,9 +81,11 @@
   * <kbd>cd /home/user_name/</kbd>
   * <kbd>cat mesg-new</kbd>
   * <kbd>more mesg-new</kbd> **:** Displays one page at a time, hit space to turn page, q to exit
-  * <kbd>less mesg-new</kbd> **:** Displays one page at a time, hit space to turn page, j and up arrow scroll up, k and down arrow scrol down one line at a time
+  * <kbd>less mesg-new</kbd> **:** Displays one page at a time, hit space to turn page, j and up arrow scroll up, k and down arrow scrol down one line at a time, q to exit
 
 ### **21.)** View the first 10 lines of mesg-new file and output to a file name mesg-h10
+  * <kbd>head mesg-new > mesg-h10</kbd>
+
 ### **22.)** View the last 20 lines of mesg-new file and output to a file name mesg-t20
 ### **23.)** Exit out of root user
 ### **24.)** Go to seinfeld directory in your home directory and create a new file "seinfeld-characters"
