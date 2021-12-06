@@ -19,6 +19,8 @@
   * <kbd>mv homer bart marge lisa simpsons</kbd>
 
 ### **5.)** Move clark, luther and lois files in superman directory
+  * <kbd>mv clark lois luther superman</kbd>
+
 ### **6.)** List the content of seinfeld directory by the last time they were modified
 ### **7.)** Create 2 new files in seinfeld directory, eliane and newman
 ### **8.)** Change file permission of newman to add write permissions to only group
