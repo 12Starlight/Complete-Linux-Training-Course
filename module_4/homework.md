@@ -48,7 +48,12 @@
   * <kbd>mv superman /tmp</kbd>
 
 ### **13.)** Remove superman file to /temp directory
+  * <kbd>pwd</kbd>
+  * <kbd>cd /tmp</kbd>
+  * <kbd>rm superman</kbd>
+
 ### **14.)** Exit out of root account
+  
 ### **15.)** Go back to superman directory in your home directory and add this linke to zad file "zad is a bad character in superman movie"
 ### **16.)** Go to seinfeld directory and create a new file seinfeld
 ### **17.)** Add 5 seinfeld characters names in seinfeld file: Jerry Seinfeld, George Costanza, Eliane Benis, Cosmo Kramer, and David Puddy
