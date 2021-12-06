@@ -64,6 +64,12 @@
   * <kbd>touch seinfeld</kbd>
 
 ### **17.)** Add 5 seinfeld characters names in seinfeld file: Jerry Seinfeld, George Costanza, Eliane Benis, Cosmo Kramer, and David Puddy
+  * <kbd>vi seinfeld</kbd> **:** Opens VIM text editor
+  * <kdb>i</kdb> **:** Insert command to insert data
+  * Type in data
+  * <kdb>esc</kdb>
+  * <kbd>:wq!</kbd> **:** Writes to file, quits VIM, saves file
+
 ### **18.)** Become root user again
 ### **19.)** Do cat/var/log/messages and output to a file called mesg-new in your home directory
 ### **20.)** Read the mesg-new file with cat, more, less commands and practice
