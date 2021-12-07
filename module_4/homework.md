@@ -120,5 +120,7 @@
   * <kbd>cut -c1-4 seinfeld-characters > seinfeld-cut</kbd> **:** Cuts characters in a range of 1-4
 
 ### **27.)** Use awk command to get only the 2nd column of seinfeld-characters and output to the filters-files without removing any other text from it
+  * <kbd>awk '{print $2}' seinfeld-characters > filters-files</kbd>
+
 ### **28.)** Use grep command to only grep seinfeld and output to a new file called seinfeld-family
 ### **29.)** Use sort command, uniq and wc command to practice whichever way you like by creating new files or workign with existing files
