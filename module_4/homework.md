@@ -123,4 +123,6 @@
   * <kbd>awk '{print $2}' seinfeld-characters > filters-files</kbd>
 
 ### **28.)** Use grep command to only grep seinfeld and output to a new file called seinfeld-family
+  * <kbd>grep -i seinfeld seinfeld-characters > seinfeld-family</kbd> **:** Ignores case
+
 ### **29.)** Use sort command, uniq and wc command to practice whichever way you like by creating new files or workign with existing files
