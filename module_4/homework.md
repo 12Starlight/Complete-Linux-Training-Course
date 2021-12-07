@@ -126,3 +126,6 @@
   * <kbd>grep -i seinfeld seinfeld-characters > seinfeld-family</kbd> **:** Ignores case
 
 ### **29.)** Use sort command, uniq and wc command to practice whichever way you like by creating new files or workign with existing files
+  * <kbd>sort -u seinfeld-characters</kbd> **:** Sorts only unique lines
+  * <kbd>sort seinfeld-characters | uniq -D</kbd> **:** Prints only duplicate lines
+  * <kbd>cat seinfeld-characters | wc -lL</kbd> **:** Prints number of lines, Longest line
