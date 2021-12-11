@@ -10,3 +10,8 @@ This link explains it all. [Virtualbox Complaint Ticket](https://www.virtualbox.
 
 </p> 
 
+<p>
+
+After deducing that Virtualbox was not going to offer a solution, I went ahead and downloaded a free user key for VMWare Fusion and was able to ssh into my mac terminal! Success 🔥😎
+
+</p>
