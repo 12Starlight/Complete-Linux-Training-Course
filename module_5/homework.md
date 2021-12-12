@@ -20,6 +20,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
 &nbsp;
 
 ### **Changing Username**
+  * Login as root
+  * Run <kbd>groupadd new_username</kbd>
   * Run <kbd>ps aux | grep user_name_to_change</kbd>
   * Find all `PIDs` for that user
   * Run <kbd>kill -KILL PID</kbd>
@@ -27,6 +29,10 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * Run <kbd>usermod -d /home/new_username -m -g new_username -l new_username old_username</kbd>
   * Close terminal and restart VM
 
+&nbsp;
 
-
+### **Changing Hostname
+  * Login as root
+  * Run <kbd>hostnamectl set-hostname new_hostname</kbd>
+  * Run <kbd>hostname</kbd>
 
