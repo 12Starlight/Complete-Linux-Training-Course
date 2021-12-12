@@ -15,3 +15,18 @@ This link explains it all. [Virtualbox Complaint Ticket](https://www.virtualbox.
 After deducing that Virtualbox was not going to offer a solution, I went ahead and downloaded a free user key for VMWare Fusion and was able to ssh into my mac terminal! Success 🔥😎
 
 </p>
+
+
+&nbsp;
+
+### **Changing Username**
+  * Run <kbd>ps aux | grep user_name_to_change</kbd>
+  * Find all `PIDs` for that user
+  * Run <kbd>kill -KILL PID</kbd>
+    * Do that for all processes being ran
+  * Run <kbd>usermod -d /home/new_username -m -g new_username -l new_username old_username</kbd>
+  * Close terminal and restart VM
+
+
+
+
