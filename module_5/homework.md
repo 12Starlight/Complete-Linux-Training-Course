@@ -22,7 +22,7 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
 ### **Changing Username**
   * Login as root
   * Run <kbd>groupadd new_username</kbd>
-  * Run <kbd>ps aux | grep user_name_to_change</kbd>
+  * Run <kbd>ps aux | grep old_username</kbd>
   * Find all `PIDs` for that user
   * Run <kbd>kill -KILL PID</kbd>
     * Do that for all processes being ran
