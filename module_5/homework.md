@@ -31,8 +31,9 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
 
 &nbsp;
 
-### **Changing Hostname
+### **Changing Hostname**
   * Login as root
   * Run <kbd>hostnamectl set-hostname new_hostname</kbd>
   * Run <kbd>hostname</kbd>
 
+&nbsp;
