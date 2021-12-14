@@ -64,16 +64,32 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
 
 ### **12.)** Make sure all these users belong to the group continents
 
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
-### **13.)**
+### **13.)** Change password for every user, then switch into each user one by one using su - username command and create one file in each user account (e.g. england file in europe, usa in namerica, jpan in asia and so on).
+
+### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
+
+### **15.)** Run last command and find out the number of users logged in. (Do not count duplicate users)
+
+### **16.)** Run id command on africa and austrailia users to verify their user id.
+
+### **17.)** Change the date of your system to Aug 22 1998 at 1pm and verify.
+
+### **18.)** Check system uptime.
+
+### **19.)** List 1999 calender.
+
+### **20.)** List everything with uname command and find out where the system architecture information is located.
+
+### **21.)** Become yourself "Your username" and run df -h command. Output the df -h command to another file and name it systemdiskinfo.
+
+### **22.)** vi Systemdiskinfo file and remove the first and second line and save the file.
+
+### **23.)** Run dmesg command and output to dm-file.
+
+### **24.)** vi dm-file and remove the last 5-7 lines.
+
+### **25.)** Add text in the end of the file dm-file using vi. Text = This is the end of the file. Then save the file.
+
+### **26.)** Reboot the system using init command.
 
 
