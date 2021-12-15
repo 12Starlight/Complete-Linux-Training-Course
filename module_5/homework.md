@@ -41,6 +41,11 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
 # **Questions**
 
 ### **1.)** Go to home directory and then go to superman directory.
+  * <kbd>cd /home/</kbd>
+  * <kbd>su - root</kbd>
+    * Type in password for root user
+  * <kbd>useradd superman</kbd> **:** Creates superman user
+    * <kbd>cd /home/superman</kbd>
 
 ### **2.)** Create a new file called "first4movies" using vi command.
 
