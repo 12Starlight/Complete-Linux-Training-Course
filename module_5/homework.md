@@ -51,6 +51,11 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>vim first4movies</kbd> **:** Insert placeholder text, used VIM
 
 ### **3.)** Write anything you know about all first 4 movies of superman. If you never watched superman then you can enter at least 20 names of your family members. This file should have 20 lines and each line should have 5-6 words. 
+  * <kbd>vim first4movies</kbd>
+    * <kbd>dd</kbd> **:** Deletes placeholder text
+    * <kbd>i</kbd> **:** Insert text
+    * <kbd>esc</kbd> **:** Escapes out of insert
+    * <kbd>:wq!</kbd> **:** Writes to the file, quits, then saves
 
 ### **4.)** Practice vi command by navigating the file content and remove some lines, edit or undo.
 
