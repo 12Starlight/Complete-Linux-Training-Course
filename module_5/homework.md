@@ -66,10 +66,15 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>h, j, k, l</kbd> **:** Left, Down, Up, Right
 
 ### **5.)** Create a new group superheros (if you do not aleady have one).
-  * <kbd>groupadd superheros</kbd>
+  * <kbd>su -</kbd> **:** Login to root first
+  * <kbd>groupadd superheros</kbd> **:* Create superheros group
 
-### **6.)** Create a new user hulk and make sure its group should be superheros and its userid should be 2000.
-  * <kbd>useradd hulk</kbd>
+### **6.)** Create a new user hulk and make sure its group should be superheros and its userid should be 2000.  
+  * <kbd>su -</kbd> **:** Login to root first
+  * <kbd>useradd hulk</kbd> **:** Creates new user hulk
+  * <kbd>usermod -aG superheros hulk</kbd> **:** Appends hulk to superheros group
+  * <kbd>grep hulk /etc/group</kbd> **:** Checks to see, if hulk was added to the superheros group
+  * <kbd>chgrp -R superheros hulk</kbd> **:** Changes hulk's main group to superheros, Casades the change through the directories
 
 ### **7.)** Once the user hulk is created, change the password for hulk and then login as hulk.
 
