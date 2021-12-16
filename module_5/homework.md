@@ -58,6 +58,12 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
     * <kbd>:wq!</kbd> **:** Writes to the file, quits, then saves
 
 ### **4.)** Practice vi command by navigating the file content and remove some lines, edit or undo.
+  * <kbd>r + character_replaced</kbd> **:** Replaces a character
+  * <kbd>dd</kbd> **:** Deletes a line
+  * <kbd>/search_term/</kbd> **:** Searches for all characters or strings within the forward slashes
+  * <kbd>i</kbd> **:** Inserts text
+  * <kbd>a</kbd> **:** Moves forward a space
+  * <kbd>h, j, k, l</kbd> **:** Left, Down, Up, Right
 
 ### **5.)** Create a new group superheros (if you do not aleady have one).
 
