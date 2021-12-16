@@ -66,6 +66,7 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>h, j, k, l</kbd> **:** Left, Down, Up, Right
 
 ### **5.)** Create a new group superheros (if you do not aleady have one).
+  * <kbd>groupadd superheros</kbd>
 
 ### **6.)** Create a new user hulk and make sure its group should be superheros and its userid should be 2000.
 
