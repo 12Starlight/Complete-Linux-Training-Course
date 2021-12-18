@@ -80,8 +80,12 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>usermod -u 2000 hulk</kbd>
 
 ### **7.)** Once the user hulk is created, change the password for hulk and then login as hulk.
+  * <kbd>passwd hulk</kbd>
+    * Type in new password
+  * <kbd>su - hulk</kbd> **:** Type in password
 
 ### **8.)** Under hulk home directory create a file Skaar.
+  
 
 ### **9.)** Change group ownership of Skaar from superheros to root.
 
