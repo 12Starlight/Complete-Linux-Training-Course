@@ -76,6 +76,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>grep hulk /etc/group</kbd> **:** Checks to see, if hulk was added to the superheros group
   * <kbd>chgrp -R superheros hulk</kbd> **:** Changes hulk's main group to superheros, Casades the change through the directories
   * <kbd>cat /etc/shadow</kbd> **:** Gives a high level snapshot of how the password is set up
+  * <kbd>usermod --help</kbd> **:** Look up different options to use to change id
+  * <kbd>usermod -u 2000 hulk</kbd>
 
 ### **7.)** Once the user hulk is created, change the password for hulk and then login as hulk.
 
