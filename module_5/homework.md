@@ -85,7 +85,7 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>su - hulk</kbd> **:** Type in password
 
 ### **8.)** Under hulk home directory create a file Skaar.
-  
+  * <kbd>touch Skaar</kbd>
 
 ### **9.)** Change group ownership of Skaar from superheros to root.
 
