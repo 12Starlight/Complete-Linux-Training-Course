@@ -91,7 +91,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>su -</kbd> **:** Changes to root user
   * <kbd>usermod -aG wheel hulk</kbd> **:** Gives hulk access to sudo privledges
   * <kbd>grep wheel /etc/group</kbd> **:** Checks to make sure hulk is added to the group wheel
-  * <kbd></kbd>
+    * Exit terminal and restart session
+  * <kbd>sudo chgrp -R root Skaar</kbd> **:** Changes group of Skaar to root, Cascades the change through the directories
 
 ### **10.)** Then create a new group continents.
 
