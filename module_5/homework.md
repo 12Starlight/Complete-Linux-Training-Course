@@ -108,7 +108,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>useradd -g continents -s /bin/bash -c "Africa" -m -d /home/africa africa</kbd> **:** Creates user, Puts user in continents group, Specifies the shell, Depicts description, Puts the user in the home directory, names user africa
   
 ### **12.)** Make sure all these users belong to the group continents
-
+  * <kbd>usermod -aG continents user_name</kbd> **:** Solved in previous question in a chained command
+ 
 ### **13.)** Change password for every user, then switch into each user one by one using su - username command and create one file in each user account (e.g. england file in europe, usa in namerica, jpan in asia and so on).
 
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
