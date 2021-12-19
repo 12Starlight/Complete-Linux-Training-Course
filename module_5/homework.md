@@ -95,6 +95,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>sudo chgrp -R root Skaar</kbd> **:** Changes group of Skaar to root, Cascades the change through the directories
 
 ### **10.)** Then create a new group continents.
+  * <kbd>sudo groupadd continents</kbd> **:** Adds continents group
+  * <kbd>cat /etc/group</kbd> **:** Checks to make sure group was added
 
 ### **11.)** Create new users namerica, samerica, asia, europe, australia, africa, and antartica.
 
