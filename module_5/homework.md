@@ -88,6 +88,10 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>touch Skaar</kbd>
 
 ### **9.)** Change group ownership of Skaar from superheros to root.
+  * <kbd>su -</kbd> **:** Changes to root user
+  * <kbd>usermod -aG wheel hulk</kbd> **:** Gives hulk access to sudo privledges
+  * <kbd>grep wheel /etc/group</kbd> **:** Checks to make sure hulk is added to the group wheel
+  * <kbd></kbd>
 
 ### **10.)** Then create a new group continents.
 
