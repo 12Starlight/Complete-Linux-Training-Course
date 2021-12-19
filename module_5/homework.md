@@ -99,6 +99,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>cat /etc/group</kbd> **:** Checks to make sure group was added
 
 ### **11.)** Create new users namerica, samerica, asia, europe, australia, africa, and antartica.
+  * <kbd>su -</kbd>
+  * <kbd>useradd -g continents -s /bin/bash -c "North America" -m -d /home/namerica namerica</kbd> **:** Creates user, Puts user in continents group, Specifies the shell, Depicts description, Puts the user in the home directory, names user namerica 
 
 ### **12.)** Make sure all these users belong to the group continents
 
