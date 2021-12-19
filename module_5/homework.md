@@ -104,6 +104,7 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>useradd -g continents -s /bin/bash -c "South America" -m -d /home/samerica samerica</kbd> **:** Creates user, Puts user in continents group, Specifies the shell, Depicts description, Puts the user in the home directory, names user samerica
   * <kbd>useradd -g continents -s /bin/bash -c "Asia" -m -d /home/asia asia</kbd> **:** Creates user, Puts user in continents group, Specifies the shell, Depicts description, Puts the user in the home directory, names user asia
   * <kbd>useradd -g continents -s /bin/bash -c "Europe" -m -d /home/europe europe</kbd> **:** Creates user, Puts user in continents group, Specifies the shell, Depicts description, Puts the user in the home directory, names user europe
+  * <kbd>useradd -g continents -s /bin/bash -c "Australia" -m -d /home/australia australia</kbd> **:** Creates user, Puts user in continents group, Specifies the shell, Depicts description, Puts the user in the home directory, names user australia
 
 ### **12.)** Make sure all these users belong to the group continents
 
