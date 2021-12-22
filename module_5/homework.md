@@ -114,14 +114,21 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>sudo passwd namerica</kbd> **:** Create password
   * <kbd>su - namerica</kbd> 
   * <kbd>touch usa</kbd>
-  * <kbd>su -</kbd> **:** Switches to root
+  
+  * <kbd>exit</kbd> **:** Switches to root
   * <kbd>passwd samerica</kbd>
   * <kbd>su - samerca</kbd>
   * <kbd>touch brazil</kbd>
-  * <kbd>su -</kbd>
+  
+  * <kbd>exit</kbd>
   * <kbd>passwd asia</kbd>
   * <kbd>su - asia</kbd>
   * <kbd>touch hongkong</kbd>
+
+  * <kbd>exit</kbd>
+  * <kbd>passwd europe</kbd>
+  * <kbd>su europe</kbd>
+  * <kbd>touch england</kbd>
 
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
 
