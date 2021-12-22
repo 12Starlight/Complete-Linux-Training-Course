@@ -118,6 +118,10 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>passwd samerica</kbd>
   * <kbd>su - samerca</kbd>
   * <kbd>touch brazil</kbd>
+  * <kbd>su -</kbd>
+  * <kbd>passwd asia</kbd>
+  * <kbd>su - asia</kbd>
+  * <kbd>touch hongkong</kbd>
 
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
 
