@@ -130,6 +130,11 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>su europe</kbd>
   * <kbd>touch england</kbd>
 
+  * <kbd>exit</kbd>
+  * <kbd>passwd australia</kbd>
+  * <kbd>su - australia</kbd>
+  * <kbd>touch sydney</kbd>
+
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
 
 ### **15.)** Run last command and find out the number of users logged in. (Do not count duplicate users)
