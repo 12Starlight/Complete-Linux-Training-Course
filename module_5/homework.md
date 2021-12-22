@@ -111,6 +111,9 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>usermod -aG continents user_name</kbd> **:** Solved in previous question in a chained command
  
 ### **13.)** Change password for every user, then switch into each user one by one using su - username command and create one file in each user account (e.g. england file in europe, usa in namerica, jpan in asia and so on).
+  * <kbd>sudo passwd namerica</kbd> **:** Create password
+  * <kbd>su - namerica</kbd> 
+  * <kbd>touch usa</kbd>
 
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
 
