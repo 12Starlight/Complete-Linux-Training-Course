@@ -115,26 +115,36 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>su - namerica</kbd> 
   * <kbd>touch usa</kbd>
   
+  &nbsp;
   * <kbd>exit</kbd> **:** Switches to root
   * <kbd>passwd samerica</kbd>
   * <kbd>su - samerca</kbd>
   * <kbd>touch brazil</kbd>
   
+  &nbsp;
   * <kbd>exit</kbd>
   * <kbd>passwd asia</kbd>
   * <kbd>su - asia</kbd>
   * <kbd>touch hongkong</kbd>
 
+  &nbsp;
   * <kbd>exit</kbd>
   * <kbd>passwd europe</kbd>
   * <kbd>su europe</kbd>
   * <kbd>touch england</kbd>
 
+  &nbsp;
   * <kbd>exit</kbd>
   * <kbd>passwd australia</kbd>
   * <kbd>su - australia</kbd>
   * <kbd>touch sydney</kbd>
 
+  &nbsp;
+  * <kbd>exit</kbd>
+  * <kbd>passwd africa</kbd>
+  * <kbd>su - africa</kbd>
+  * <kbd>touch safrica</kbd>
+  
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
 
 ### **15.)** Run last command and find out the number of users logged in. (Do not count duplicate users)
