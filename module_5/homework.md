@@ -146,6 +146,10 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>touch safrica</kbd>
   
 ### **14.)** Also add user namerica to wheel group to allow it to run root commands as root and then test it.
+  * <kbd>su -</kbd> **:** Changes to root user
+  * <kbd>usermod -aG wheel namerica</kbd> **:** Adds namerica to wheel group
+  * <kbd>grep namerica /etc/group</kbd> **:** Checks to make sure namerca is added to wheel group
+  * Exit terminal and restart session
 
 ### **15.)** Run last command and find out the number of users logged in. (Do not count duplicate users)
 
