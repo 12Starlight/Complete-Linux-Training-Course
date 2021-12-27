@@ -152,6 +152,7 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * Exit terminal and restart session
 
 ### **15.)** Run last command and find out the number of users logged in. (Do not count duplicate users)
+  * <kbd>last | awk '{print $1}' | sort | uniq</kbd> **:** Runs last command that prints out all users, Finds first collumn, Sorts the columns, Removes all duplicate collumns
 
 ### **16.)** Run id command on africa and austrailia users to verify their user id.
 
