@@ -155,6 +155,8 @@ After deducing that Virtualbox was not going to offer a solution, I went ahead a
   * <kbd>last | awk '{print $1}' | sort | uniq</kbd> **:** Runs last command that prints out all users, Finds first collumn, Sorts the columns, Removes all duplicate collumns
 
 ### **16.)** Run id command on africa and austrailia users to verify their user id.
+  * <kbd>id africa</kbd>
+  * <kbd>id austrailia</kbd>
 
 ### **17.)** Change the date of your system to Aug 22 1998 at 1pm and verify.
 
